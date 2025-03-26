@@ -1,0 +1,79 @@
+# 1. Crear una lista de bases nitrogenadas
+
+Crea una lista con las bases nitrogenadas de adn ["A", "T", "C", "G"]. Luego:
+
+bases = list ("ATCG")
+print (bases)
+
+
+
+Accede a la base en la segunda posición.
+Cambia la base “T” por “U” (ARN).
+Imprime la lista resultante.
+
+
+# 2. Generar una lista de nucleótidos a partir de una secuencia
+Dada la secuencia "ATGCGTAGC", conviértela en una lista de caracteres.
+
+Salida esperada:
+
+['A', 'T', 'G', 'C', 'G', 'T', 'A', 'G', 'C']
+
+
+# 3. Extraer un fragmento de una secuencia
+Dada la lista de nucleótidos ["A", "T", "G", "C", "G", "T", "A", "G", "C"], usa slicing para obtener:
+
+Los primeros 5 nucleótidos.
+Los últimos 3 nucleótidos.
+La secuencia en orden inverso.
+
+
+list = ["A", "T", "G", "C", "G", "T", "A", "G", "C"]
+
+print(list[0:5])
+print(list[-3:1])
+print(list[::-1])
+
+
+
+Ejercicios Intermedios
+
+# 4.. Contar la frecuencia de bases en una secuencia de ADN
+
+Dada la secuencia "ATGCTTCGA", cuenta cuántas veces aparece cada base (A, T, C, G) y almacénalo en una lista.
+
+list = ("ATGCTTCGA")
+
+print(list)
+
+
+Salida esperada:
+
+`[('A', 2), ('T', 2), ('G', 2), ('C', 2)]`
+
+# 5. Filtrar bases nitrogenadas raras
+Dada la lista ["A", "T", "G", "C", "N", "R", "Y", "A", "T", "G", "C"], elimina cualquier base que no sea "A", "T", "G" o "C", utilizando comprensión de listas.
+
+Salida esperada:
+
+["A", "T", "G", "C", "A", "T", "G", "C"]
+
+# 6. Generar una lista con los codones de una secuencia
+Dada la secuencia "ATGCTTCGAGGG", divide la secuencia en codones de 3 nucleótidos usando comprensión de listas.
+
+Salida esperada:
+
+["ATG", "CTT", "CGA", "GGG"]
+
+Ejercicios Avanzados
+
+
+# 7. Transcripción de ADN a ARN
+Dada una secuencia de ADN en forma de lista, reemplaza "T" por "U" y generar una secuencia de ARN en formato de lista.
+
+Entrada
+
+["A", "T", "G", "C"]
+Salida esperada
+
+['A', 'U', 'G', 'C']

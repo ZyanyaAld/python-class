@@ -1,0 +1,35 @@
+# Ejercicios Prácticos (Aplicados a Genómica)
+
+# Verificación de Longitud de Secuencia
+# Escribe un programa que verifique si una secuencia de ADN tiene más de 1000 bases.
+
+secuencia = "ATGCGTAA"  # Coloca aquí una secuencia de ADN`
+
+if len(secuencia) <20 :
+   print("Secuencia larga")
+else:
+  print("Secuencia corta")
+
+
+# Clasificación de Genes
+# Dado un valor de expresión génica, clasifica el gen como sobreexpresado, expresión normal o baja expresión.
+
+expresion = 5.2  # Cambia este valor
+
+if   expresion > 10 :
+    print("Gen sobreexpresado")
+elif expresion > 5:
+    print("Expresión normal")
+else:
+    print("Baja expresión")
+
+
+# Identificación de Bases en Secuencia
+# Escribe un código que determine si una secuencia contiene la base N (indica una base desconocida).
+
+secuencia = "ATGNCGTAGC"
+
+if "D" in secuencia :
+    print("Secuencia con bases desconocidas")
+else:
+    print("Secuencia válida")
